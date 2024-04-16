@@ -1,0 +1,202 @@
+[
+{
+"Class": "ArrayParameter",
+"advanced": true,
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "uniqueids of parameters fitted by the minimizer",
+"kind": "nelder_mead",
+"qualifier": "fitted_uniqueids",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "MWODEjznGZkDplSRBDIARdGIHAKNPv",
+"value": [
+"MqeCsbpPJAuxZSSTVQnwopfkCJBEtS",
+"seBAkbQPeJvRVQqJtPAIsVVzIjUHgQ",
+"gDUUBQAfYwJcMfxcNnnHwCokDsWbLy"
+],
+"visible_if": "false"
+},
+{
+"Class": "ArrayParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "twigs of parameters fitted by the minimizer",
+"kind": "nelder_mead",
+"qualifier": "fitted_twigs",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "RqUOnUPjRpTXWyNLgluQnImcmfxcvz",
+"value": [
+"q@binary@orbit@component",
+"vgamma@system",
+"t0_supconj@binary@orbit@component"
+]
+},
+{
+"Class": "SelectTwigParameter",
+"choices": [
+"q@binary@orbit@component",
+"vgamma@system",
+"t0_supconj@binary@orbit@component"
+],
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "which of the parameters should be included when adopting the solution",
+"kind": "nelder_mead",
+"qualifier": "adopt_parameters",
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "MXpchhQnNvSjBUOWWBnilrjmyRgqIm",
+"value": [
+"q@binary@orbit@component",
+"vgamma@system",
+"t0_supconj@binary@orbit@component"
+]
+},
+{
+"Class": "BoolParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "whether to create a distribution (of delta functions of all parameters in adopt_parameters) when calling adopt_solution.",
+"kind": "nelder_mead",
+"qualifier": "adopt_distributions",
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "ZOHHJwaByMEvhvMlQlpBMcTVjPKQeu",
+"value": false
+},
+{
+"Class": "BoolParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "whether to update the parameter face-values (of all parameters in adopt_parameters) when calling adopt_solution.",
+"kind": "nelder_mead",
+"qualifier": "adopt_values",
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "uHbWayymHHumNsGjITCfKvphlOImwi",
+"value": true
+},
+{
+"Class": "StringParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "message from the minimizer",
+"kind": "nelder_mead",
+"qualifier": "message",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "CJOAENAnlqlRhZiYhIJXiVHTSiGpgN",
+"value": "Optimization terminated successfully."
+},
+{
+"Class": "IntParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "number of completed iterations",
+"kind": "nelder_mead",
+"limits": [
+0,
+null
+],
+"qualifier": "niter",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "EzYALzivzhlMXkVRwVCknMwSBbkXsL",
+"value": 107
+},
+{
+"Class": "BoolParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "whether the minimizer returned a success message",
+"kind": "nelder_mead",
+"qualifier": "success",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "SfHyyhdcDkBlabeokiJEAeZYgWvqPM",
+"value": true
+},
+{
+"Class": "ArrayParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "initial values before running the minimizer (in current default units of each parameter)",
+"kind": "nelder_mead",
+"qualifier": "initial_values",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "TkmCGiBSQOyjMwEjneeyGYBPJBmYiH",
+"value": [
+1.0,
+0.0,
+-1.7763863324729934
+]
+},
+{
+"Class": "ArrayParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "final values returned by the minimizer (in current default units of each parameter)",
+"kind": "nelder_mead",
+"qualifier": "fitted_values",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "QMUsRpboWWkYasutUveTxUgNqBBOjp",
+"value": [
+0.00332564382442021,
+0.0016762452027630627,
+-1.772565593193707
+]
+},
+{
+"Class": "ArrayParameter",
+"advanced": true,
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "units of the fitted_values",
+"kind": "nelder_mead",
+"qualifier": "fitted_units",
+"readonly": true,
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "lYkBxBaxFNcXYYiVdqfoXCseQGWCUD",
+"value": [
+"",
+"km / s",
+"d"
+]
+},
+{
+"Class": "StringParameter",
+"compute": "fastcompute",
+"context": "solution",
+"copy_for": false,
+"description": "User-provided comments for this solution.  Feel free to place any notes here.",
+"kind": "nelder_mead",
+"qualifier": "comments",
+"solution": "latest",
+"solver": "nm_solver",
+"uniqueid": "fMTCtMQnJQkAmGLxpKlJbIixuBMyjG",
+"value": ""
+}
+]

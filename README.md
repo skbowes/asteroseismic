@@ -1,0 +1,2 @@
+# asteroseismic
+# eclipsing-binaries
